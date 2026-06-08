@@ -1,0 +1,19 @@
+# Python System Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE Configuration
+.vscode/
+
+# Project Data and Log Files (Protects local pipeline runs)
+output/*.csv
+data/
+*.log
