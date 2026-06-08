@@ -1,32 +1,81 @@
-# clinical-trial-dashboard
-Clinical Trial Compliance Monitoring Dashboard using Python, PostgreSQL, Dash and Plotly.
+# Clinical Trial Compliance & Monitoring Dashboard
 
-# Clinical Trials ETL Pipeline
-## Overview
-This project builds a full ETL pipeline using Python to extract clinical trials data from the ClinicalTrials.gov API, transform and clean the data, validate it, and load it into a PostgreSQL database for analytics use.
+An interactive data analytics dashboard built with **Python Dash, Plotly, and Pandas** to monitor and analyze clinical trial operations across multiple dimensions including geography, sponsors, enrollment scale, and recruitment status.
 
-## Features
-- API data extraction with pagination support
-- Data cleaning and normalization
-- Derived metrics (enrollment tiers)
-- Data validation checks (nulls, duplicates, negative values)
-- Relational database design (4 tables)
-- CSV export for Power BI / Tableau
-- Logging and error handling
 
-## Database Schema
+## Project Overview
 
-### Tables
-- sponsors (dimension table)
-- clinical_trials (fact table)
-- locations (dimension table)
-- enrollment_metrics (fact table)
+This dashboard simulates a real-world **clinical trial monitoring system** designed for operational and compliance visibility.
+
+It provides an executive-level view of:
+- Active clinical trials
+- Sponsor distribution
+- Enrollment scale
+- Geographic trial distribution across U.S. states
+- Individual trial inspection and audit details
+
+
+##  Key Features
+
+###  Executive KPI Dashboard
+- Total trials monitored
+- Total participant enrollment
+- Number of sponsor classes
+- Real-time updates based on filters
+
+### Interactive Geographic Map
+- U.S. state-level choropleth visualization
+- Click-to-filter functionality
+- Reset map selection button
+
+###  Sponsor Distribution Analysis
+- Donut chart showing enrollment distribution by sponsor class
+
+###  Master Trial Ledger Table
+- Paginated, interactive data table
+- Displays protocol ID, title, and recruitment status
+- Row selection enables deep inspection
+
+###  Drilldown Inspection Panel
+- Full clinical trial profile view including:
+  - Enrollment metrics
+  - Sponsor information
+  - Facility location (city, state, country)
+  - Start and completion dates
+
+###  Global Filter System
+- Filter by:
+  - Recruitment status
+  - Sponsor class
+  - Enrollment scale tier
+
+
+##  Data Pipeline
+
+The system loads and merges multiple structured datasets:
+
+- `trials.csv`
+- `enrollment.csv`
+- `sponsors.csv`
+- `locations.csv`
+
+### Data Processing Steps:
+- Merging datasets on key IDs (`nct_id`, `sponsor_id`)
+- Cleaning missing values and duplicates
+- Assigning standardized U.S. state mapping for geographic visualization
+- Generating derived metrics (enrollment totals, sponsor counts)
+
 
 ## Tech Stack
-- Python
-- Pandas
-- SQLAlchemy
-- PostgreSQL
-- Requests API
 
+- **Python**
+- **Dash (Plotly)**
+- **Dash Bootstrap Components**
+- **Pandas**
+- **Plotly Express**
 
+##  How to Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
