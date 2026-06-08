@@ -14,6 +14,15 @@ It provides an executive-level view of:
 - Geographic trial distribution across U.S. states
 - Individual trial inspection and audit details
 
+## Business Insights
+
+This dashboard enables institutional stakeholders such as IRB directors and research administrators to:
+
+- Monitor clinical trial distribution across U.S. states
+- Identify sponsor organizations contributing the highest enrollment volume
+- Track recruitment activity and study progress in real time
+- Detect potential compliance delays or inactive trials
+- Improve transparency in clinical research oversight
 
 ##  Key Features
 
