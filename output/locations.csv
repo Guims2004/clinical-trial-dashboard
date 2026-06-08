@@ -1,0 +1,309 @@
+facility_name,city,state,country
+Duplicate_University of Arizona Cancer Center - North Campus /ID# 154155,Tucson,Arizona,United States
+The University of Chicago Medical Center /ID# 153673,Chicago,Illinois,United States
+"University of Maryland, Baltimore /ID# 153669",Baltimore,Maryland,United States
+Tufts Medical Center /ID# 153672,Boston,Massachusetts,United States
+Dana-Farber Cancer Institute /ID# 152735,Boston,Massachusetts,United States
+Washington University-School of Medicine /ID# 153671,St Louis,Missouri,United States
+Columbia University Medical Center /ID# 153661,New York,New York,United States
+Weill Cornell Medical College /ID# 155524,New York,New York,United States
+Oregon Medical Research Center /ID# 152734,Portland,Oregon,United States
+University of Pittsburgh MC /ID# 153662,Pittsburgh,Pennsylvania,United States
+Tennessee Oncology-Nashville Centennial /ID# 222769,Nashville,Tennessee,United States
+Vanderbilt University Medical Center /ID# 152738,Nashville,Tennessee,United States
+UT MD Anderson Cancer Center /ID# 153809,Houston,Texas,United States
+Concord Repatriation General Hospital /ID# 154958,Concord,New South Wales,Australia
+"Duplicate_St. Vincent's Hospital, Darlinghurst /ID# 222846",Darlinghurst,New South Wales,Australia
+St George Hospital /ID# 154954,Kogarah,New South Wales,Australia
+Liverpool Hospital /ID# 222410,Liverpool,New South Wales,Australia
+Calvary Mater Newcastle /ID# 154957,Waratah,New South Wales,Australia
+Duplicate_Princess Alexandra Hospital /ID# 154990,Woolloongabba,Queensland,Australia
+Austin Health /ID# 154955,Heidelberg,Victoria,Australia
+The Alfred Hospital /ID# 154956,Melbourne,Victoria,Australia
+Fiona Stanley Hospital /ID# 222847,Murdoch,Western Australia,Australia
+Juravinski Cancer Centre /ID# 152947,Hamilton,Ontario,Canada
+"Centre Hospitalier Universitaire de Nantes, Hotel Dieu -HME /ID# 153828",Nantes,Pays de la Loire Region,France
+Hôpital Saint-Louis /ID# 153827,Paris,,France
+Universitatsklinikum Mannheim /ID# 153140,Mannheim,Baden-Wurttemberg,Germany
+Klinikum rechts der Isar /ID# 153139,Munich,Bavaria,Germany
+Universitaetsklinikum Koeln /ID# 153141,Cologne,North Rhine-Westphalia,Germany
+Duplicate_Universitaetsklinikum Carl Gus /ID# 153958,Dresden,Saxony,Germany
+Universitaetsklinikum Leipzig /ID# 153142,Leipzig,Saxony,Germany
+Universitaetsklinikum Halle (Saale) /ID# 153760,Halle,,Germany
+Duplicate_IRCCS AOU di Bologna - Policlinico Sant'Orsola-Malpighi /ID# 153763,Bologna,Emilia-Romagna,Italy
+Duplicate_Azienda Ospedaliero-Universitaria Policlinico Umberto I /ID# 153764,Rome,Roma,Italy
+Norfolk and Norwich University Hospitals NHS Foundation Trust /ID# 156492,Norwich,Norfolk,United Kingdom
+Oxford University Hospitals NHS Foundation Trust /ID# 222567,Oxford,Oxfordshire,United Kingdom
+University Hospitals Birmingham NHS Foundation Trust /ID# 158810,Birmingham,,United Kingdom
+King's College Hospital NHS Foundation Trust /ID# 156489,London,,United Kingdom
+Lineberger Comprehensive Cancer Center at University of North Carolina,Chapel Hill,North Carolina,United States
+National Cancer Center,Goyang-si,Gyeonggi-do,South Korea
+Froedtert Hospital and the Medical College of Wisconsin,Milwaukee,Wisconsin,United States
+Icahn School of Medicine at Mount Sinai,New York,New York,United States
+U.T.M.D. Anderson Cancer Center,Houston,Texas,United States
+"The First Affiliated Hospital, Zhejiang University School of Medicine",Hangzhou,Zhejiang,China
+University of Texas MD Anderson Cancer Center,Houston,Texas,United States
+University of Kansas Medical Center,Kansas City,Kansas,United States
+National Taiwan University Hospital,Taipei,Taiawn,Taiwan
+"The Hong Kong Polytechnic University (posters, Facebook, WhatsApp groups etc.)",Hong Kong,,China
+Centre Henri Becquerel,Rouen,,France
+Memorial Sloan Kettering Cancer Center,New York,New York,United States
+"AP-HP, Groupe Hospitalier Pitié-Salpêtrière",Paris,,France
+GenesisCare Mater,Sydney,New South Wales,Australia
+GenesisCare North Shore,Sydney,New South Wales,Australia
+GenesisCare Frenchs Forest,Sydney,New South Wales,Australia
+GenesisCare Norwest,Sydney,New South Wales,Australia
+GenesisCare Hurstville,Sydney,New South Wales,Australia
+GenesisCare Campbelltown,Sydney,New South Wales,Australia
+Hospital Universitari Germans Trias i Pujol,Badalona,Barcelona,Spain
+Instituto Catalán de Oncología de Badalona,Badalona,Barcelona,Spain
+Hospital Comarcal Sant Jaume de Calella,Calella,Barcelona,Spain
+Hospital General de Granollers,Granollers,Barcelona,Spain
+Consorci Sanitari Integral,L'Hospitalet de Llobregat,Barcelona,Spain
+Hospital Universitario de Bellvitge,L'Hospitalet de Llobregat,Barcelona,Spain
+Instituto Catalán de Oncología- Hospital Duran i Reynals,L'Hospitalet de Llobregat,Barcelona,Spain
+Fundación Althaia Manresa,Manresa,Barcelona,Spain
+Hospital de Mataró,Mataró,Barcelona,Spain
+Hospital Universitario General de Cataluña,Sant Cugat del Vallès,Barcelona,Spain
+Hospital Universitario Mútua Terrassa,Terrassa,Barcelona,Spain
+Consorci Sanitari de Terrassa,Terrassa,Barcelona,Spain
+Hospital de Viladecans,Viladecans,Barcelona,Spain
+Hospital Universitario de Cruces,Barakaldo,Bizkaia,Spain
+Hospital Universitario Galdakao-Usansolo,Galdakao,Bizkaia,Spain
+Hospital Universitario Puerta del Mar,Cadiz,Cádiz,Spain
+Hospital Universitario de Donostia,Donostia / San Sebastian,Gipuzkoa,Spain
+Hospital Universitario Príncipe de Asturias,Alcalá de Henares,Madrid,Spain
+Hospital Universitario Severo Ochoa,Leganés,Madrid,Spain
+Hospital Universitario Puerta De Hierro,Majadahonda,Madrid,Spain
+Hospital Universitario Infanta Cristina,Parla,Madrid,Spain
+Hospital Clínico Universitario Virgen de la Arrixaca,El Palmar,Murcia,Spain
+Hospital Ribera Povisa,Vigo,Pontevedra,Spain
+Hospital Álvaro Cunqueiro,Vigo,Pontevedra,Spain
+Hospital Universitario de Canarias,San Cristóbal de La Laguna,Santa Cruz De Tenerife,Spain
+Hospital Universitario Sant Joan de Reus,Reus,Tarragona,Spain
+Hospital Universitario de A Coruña,A Coruña,,Spain
+Hospital del Mar,Barcelona,,Spain
+Hospital de la Santa Cruz y San Pablo,Barcelona,,Spain
+Hospital Clínico y Provincial de Barcelona,Barcelona,,Spain
+Hospital Universitario de Burgos,Burgos,,Spain
+Hospital Universitario de Gerona Doctor Josep Trueta,Girona,,Spain
+Institut Catalán de Oncología de Girona,Girona,,Spain
+Hospital Universitario Virgen de las Nieves,Granada,,Spain
+Hospital Universitario Clínico San Cecilio,Granada,,Spain
+Hospital General Universitario Gregorio Marañón,Madrid,,Spain
+Hospital Universitario Ramón y Cajal,Madrid,,Spain
+Hospital Universitario 12 de Octubre,Madrid,,Spain
+Hospital Universitario La Paz,Madrid,,Spain
+Hospital Universitario HM Sanchinarro,Madrid,,Spain
+Hospital Universitario Infanta Sofía- Fundación de Inv. Biomédica H. Infanta Sofía,Madrid,,Spain
+Hospital Regional Universitario de Málaga,Málaga,,Spain
+Hospital Universitario Virgen de la Victoria,Málaga,,Spain
+Hospital Universitario de Navarra,Pamplona,,Spain
+Hospital Montecelo,Pontevedra,,Spain
+Hospital Universitario Nuestra Señora de Candelaria,Santa Cruz de Tenerife,,Spain
+Hospital General de Segovia,Segovia,,Spain
+Hospital Universitario Virgen Macarena,Seville,,Spain
+Hospital Universitario de Tarragona Juan XXIII,Tarragona,,Spain
+Instituto Valenciano de Oncología,Valencia,,Spain
+Hospital Universitario Doctor Peset,Valencia,,Spain
+Hospital Clínico Universitario de Valladolid,Valladolid,,Spain
+Hospital Recoletas Campo Grande de Valladolid,Valladolid,,Spain
+Hospital Universitario de Álava / Txagorritxu,Vitoria-Gasteiz,Álava,Spain
+GSK Investigational Site,Tucson,Arizona,United States
+GSK Investigational Site,Fort Myers,Florida,United States
+GSK Investigational Site,Boston,Massachusetts,United States
+GSK Investigational Site,Kansas City,Missouri,United States
+GSK Investigational Site,Nashville,Tennessee,United States
+GSK Investigational Site,Garran,Australian Capital Territory,Australia
+GSK Investigational Site,Darlinghurst,New South Wales,Australia
+GSK Investigational Site,Gosford NSW,New South Wales,Australia
+GSK Investigational Site,Port Macquarie,New South Wales,Australia
+GSK Investigational Site,Benowa,Queensland,Australia
+GSK Investigational Site,South Brisbane,Queensland,Australia
+GSK Investigational Site,Adelaide,South Australia,Australia
+GSK Investigational Site,Fitzroy,Victoria,Australia
+GSK Investigational Site,Heidelberg,Victoria,Australia
+GSK Investigational Site,Malvern,Victoria,Australia
+GSK Investigational Site,Nedlands,Western Australia,Australia
+GSK Investigational Site,Curitiba,,Brazil
+GSK Investigational Site,Joinville,,Brazil
+GSK Investigational Site,Porto Alegre,,Brazil
+GSK Investigational Site,São Paulo,,Brazil
+GSK Investigational Site,Beijing,,China
+GSK Investigational Site,Changchun,,China
+GSK Investigational Site,Changsha,,China
+GSK Investigational Site,Hangzhou,,China
+GSK Investigational Site,Jiangsu,,China
+GSK Investigational Site,Nanchang,,China
+GSK Investigational Site,Shenyang,,China
+GSK Investigational Site,Tianjin,,China
+GSK Investigational Site,Brno,,Czechia
+GSK Investigational Site,Hradec Králové,,Czechia
+GSK Investigational Site,Prague,,Czechia
+GSK Investigational Site,Marseille,,France
+GSK Investigational Site,Toulouse,,France
+GSK Investigational Site,Vanduvre-lEs-Nancy,,France
+GSK Investigational Site,Mainz,,Germany
+GSK Investigational Site,Tübingen,,Germany
+GSK Investigational Site,Würzburg,,Germany
+GSK Investigational Site,Athens,,Greece
+GSK Investigational Site,Ioannina,,Greece
+GSK Investigational Site,Thessaloniki,,Greece
+GSK Investigational Site,Haifa,,Israel
+GSK Investigational Site,Jerusalem,,Israel
+GSK Investigational Site,Kfar Saba,,Israel
+GSK Investigational Site,Nahariya,,Israel
+GSK Investigational Site,Petah Tikva,,Israel
+GSK Investigational Site,Tel Aviv,,Israel
+GSK Investigational Site,Bologna,,Italy
+GSK Investigational Site,Milan,,Italy
+GSK Investigational Site,Pavia,,Italy
+GSK Investigational Site,Roma,,Italy
+GSK Investigational Site,Aichi,,Japan
+GSK Investigational Site,Chiba,,Japan
+GSK Investigational Site,Ehime,,Japan
+GSK Investigational Site,Fukushima,,Japan
+GSK Investigational Site,Gunma,,Japan
+GSK Investigational Site,Hokkaido,,Japan
+GSK Investigational Site,Numakunai,,Japan
+GSK Investigational Site,Okayama,,Japan
+GSK Investigational Site,Osaka,,Japan
+GSK Investigational Site,Tottori,,Japan
+GSK Investigational Site,Yamagata,,Japan
+GSK Investigational Site,Auckland,,New Zealand
+GSK Investigational Site,Dunedin,,New Zealand
+GSK Investigational Site,Grafton,,New Zealand
+GSK Investigational Site,Hamilton,,New Zealand
+GSK Investigational Site,Takapuna Auckland,,New Zealand
+GSK Investigational Site,Tauranga,,New Zealand
+GSK Investigational Site,Bydgoszcz,,Poland
+GSK Investigational Site,Gdansk,,Poland
+GSK Investigational Site,Krakow,,Poland
+GSK Investigational Site,Lodz,,Poland
+GSK Investigational Site,Wroclaw,,Poland
+GSK Investigational Site,Moscow,,Russia
+GSK Investigational Site,Novosibirsk,,Russia
+GSK Investigational Site,Saint Petersburg,,Russia
+GSK Investigational Site,Samara,,Russia
+GSK Investigational Site,Sochi,,Russia
+GSK Investigational Site,Gyeonggi-do,,South Korea
+GSK Investigational Site,Hwasun,,South Korea
+GSK Investigational Site,Inchon,,South Korea
+GSK Investigational Site,Seoul,,South Korea
+GSK Investigational Site,Barcelona,,Spain
+GSK Investigational Site,Gijón,,Spain
+GSK Investigational Site,L'Hospitalet de Llobrega,,Spain
+GSK Investigational Site,Madrid,,Spain
+GSK Investigational Site,MOstoles Madrid,,Spain
+GSK Investigational Site,Murcia,,Spain
+GSK Investigational Site,Palma de Mallorca,,Spain
+GSK Investigational Site,PamplonaNavarra,,Spain
+GSK Investigational Site,Pozuelo de AlarcOn Madr,,Spain
+GSK Investigational Site,Salamanca,,Spain
+GSK Investigational Site,Seville,,Spain
+GSK Investigational Site,Valencia,,Spain
+GSK Investigational Site,Ankara,,Turkey (Türkiye)
+GSK Investigational Site,Izmir,,Turkey (Türkiye)
+GSK Investigational Site,Kocaeli,,Turkey (Türkiye)
+GSK Investigational Site,Mersin,,Turkey (Türkiye)
+GSK Investigational Site,Samsun,,Turkey (Türkiye)
+GSK Investigational Site,London,,United Kingdom
+GSK Investigational Site,Plymouth,,United Kingdom
+GSK Investigational Site,Southampton,,United Kingdom
+GSK Investigational Site,Stoke-on-Trent,,United Kingdom
+GSK Investigational Site,Sutton,,United Kingdom
+Instituto de Oncologia de Rosario,Rosario,Santa Fe Province,Argentina
+Sanatorio Guemes,CABA,,Argentina
+Hospital Italiano de Buenos Aires,CABA,,Argentina
+Hospital Britanico de Buenos Aires,CABA,,Argentina
+Instituto Medico Especializado Alexander Fleming,CABA,,Argentina
+Instituto de Cardiologia y Cirugia Cardiovascular,Santa Fe,,Argentina
+ISIS Centro Especializado,Santa Fe,,Argentina
+Hospital Da Cidade De Passo Fundo,Passo Fundo,Rio Grande do Sul,Brazil
+Hospital Sao Lucas da PUCRS / Uniao Brasileira de Educacao e Assistencia,Porto Alegre,Rio Grande do Sul,Brazil
+Oncologia Rede D'Or S.A.,Rio de Janeiro,,Brazil
+IDOR - Instituto D'Or em Pesquisa e Ensino,Rio de Janeiro,,Brazil
+Sociedade Beneficente de Senhoras Hospital Sirio Libanes,São Paulo,,Brazil
+Clínica de Pesquisa e Centro de Estudos em Oncologia Ginecológica e Mamária Ltda,São Paulo,,Brazil
+Instituto de Cancerologia S.A.,Medellín,Antioquia,Colombia
+Administradora Country,Bogotá,Bogota D.C.,Colombia
+Oncology Center,Bogotá,Bogota D.C.,Colombia
+Oncomedica S.A.,Montería,Departamento de Córdoba,Colombia
+Imagenes Diagnosticas,Pereira,Risaralda Department,Colombia
+ONCOLOGOS DEL OCCIDENTE S.A.S Sede Pereira Clinica de Alta Tecnologia Maraya,Pereira,Risaralda Department,Colombia
+Fucam A.C.,Coyoacán,D.F.,Mexico
+Instituto Nacional de Cancerologia,Tlalpan,D.F.,Mexico
+Hospital Maria Auxiliadora,Guadalajara,Jalisco,Mexico
+"Clinica de Especialidades Medicas Intepro, ONCE Oncologia Especializada",Zapopan,Jalisco,Mexico
+Hospital Universitario Dr. Jose Eleuterio Gonzalez,Monterrey,Nuevo León,Mexico
+Cedars-Sinai Medical Center,Los Angeles,California,United States
+University of Arkansas for Medical Sciences,Little Rock,Arkansas,United States
+"Texas A&M University, Center for Translational Research in Aging & Longevity",College Station,Texas,United States
+St. Joseph's Hospital and Medical Center/Barrow Neurological Institute,Phoenix,Arizona,United States
+Children's Hospital Boston,Boston,Massachusetts,United States
+The Rockefeller University,New York,New York,United States
+Cincinnati Children's Hospital,Cincinnati,Ohio,United States
+Fred Hutchinson Cancer Research Center,Seattle,Washington,United States
+Children's Hospital of Wisconsin,Milwaukee,Wisconsin,United States
+University Hospital Essen,Essen,,Germany
+"U.O.C Chirurgia Epatobiliare e Trapianti Epatici, Azienda Ospedaliera di Padova",Padova,,Italy
+Lei Tao,Shanghai,Shanghai Municipality,China
+Dana Farber Cancer Institute,Boston,Massachusetts,United States
+St. Jude Children's Research Hospital,Memphis,Tennessee,United States
+UT Southwestern Medical Center/Children's Medical Center,Dallas,Texas,United States
+NGM Clinical Study Site,Tucson,Arizona,United States
+NGM Clinical Study Site,Los Angeles,California,United States
+NGM Clinical Study Site,Sacramento,California,United States
+NGM Clinical Study Site,San Diego,California,United States
+NGM Clinical Study Site,Santa Monica,California,United States
+NGM Clinical Study Site,Aurora,Colorado,United States
+NGM Clinical Study Site,Washington D.C.,District of Columbia,United States
+NGM Clinical Study Site,Miami,Florida,United States
+NGM Clinical Study Site,Chicago,Illinois,United States
+NGM Clinical Study Site,Baltimore,Maryland,United States
+NGM Clinical Study Site,Cincinnati,Ohio,United States
+NGM Clinical Study Site,Philadelphia,Pennsylvania,United States
+NGM Clinical Study Site,Charleston,South Carolina,United States
+NGM Clinical Study Site,Myrtle Beach,South Carolina,United States
+NGM Clinical Study Site,Nashville,Tennessee,United States
+NGM Clinical Study Site,Dallas,Texas,United States
+NGM Clinical Study Site,Houston,Texas,United States
+NGM Clinical Study Site,Seattle,Washington,United States
+NGM Clinical Study Site,Milwaukee,Wisconsin,United States
+Massachusetts General Hospital,Boston,Massachusetts,United States
+Dana-Farber Cancer Institute,Boston,Massachusetts,United States
+Queen Elizabeth Hospital at University Hospital of Birmingham NHS Trust,Birmingham,England,United Kingdom
+MD Anderson Cancer Center,Houston,Texas,United States
+Not Provided,,,
+University of Colorado Denver,Aurora,Colorado,United States
+Moffitt Cancer Center,Tampa,Florida,United States
+Severance Hospital,Seoul,,South Korea
+SAHZhejiangU,Hangzhou,Zhejiang,China
+"VA Ann Arbor Healthcare System, Ann Arbor, MI",Ann Arbor,Michigan,United States
+CHU de Besançon,Besançon,,France
+Royal Marsden Hospital,Sutton,Surrey,United Kingdom
+Prince of Wales Hospital,Hong Kong,,Hong Kong
+"North-Western District Scientific and Clinical Center named after L.G. Sokolov, FMBA of Russia",Saint Petersburg,,Russia
+Mayo Clinic in Arizona,Scottsdale,Arizona,United States
+Emory University Winship Cancer,Atlanta,Georgia,United States
+University of IL at Chicago,Chicago,Illinois,United States
+McFarland Clinic,Ames,Iowa,United States
+Siouxland Hematology Oncology Associates,Sioux City,Iowa,United States
+Michigan Cancer Research Consortium and Oncology Research- St. Joseph Mercy Hospital - Ann Arbor,Ann Arbor,Michigan,United States
+Mayo Clinic,Rochester,Minnesota,United States
+Metro MN CCOP,Saint Louis Park,Minnesota,United States
+Missouri Valley Cancer Consortium,Omaha,Nebraska,United States
+Kinston Medical Specialists,Kinston,North Carolina,United States
+University of Pennsylvania,Philadelphia,Pennsylvania,United States
+Reading Hospital and Medical Center,West Reading,Pennsylvania,United States
+WVU Mary Babb Randolph Cancer Center,Morgantown,West Virginia,United States
+Gundersen Lutheran,La Crosse,Wisconsin,United States
+Waukesha Memorial Hospital (ProHealth Care),Waukesha,Wisconsin,United States
+Aurora Cancer Center,Wauwatosa,Wisconsin,United States
+AC Camargo Cancer Center,São Paulo,,Brazil
+Henan Cancer Hospital,Zhengzhou,Henan,China
+"The Maria Sklodowska-Curie Memorial Cancer Center and Institute of Oncology, Warsaw, Poland",Warsaw,Mazovian,Poland
+Kansas City VA Medical Center,Kansas City,Missouri,United States
+Nanjing Brain Hospital,Nanjing,Jiangsu,China
+Cross Cancer Institute,Edmonton,Alberta,Canada
+Assaf-Harofeh Medical Center,Ẕerifin,Israel,Israel
