@@ -1,12 +1,11 @@
-# Clinical Trial Compliance & Monitoring Dashboard
+#Clinical Trial Compliance & Monitoring Dashboard
 
-**Developer:** Olivia Ngueguim  
-**Target Audience:** Institutional Review Board (IRB) Directors, Research Ethics Committees, University Research Administrators  
+Developer: Olivia Ngueguim  
+Target Audience: Institutional Review Board (IRB) Directors, Research Ethics Committees, University Research Administrators  
 
+1. Project Overview
 
-# 1. Project Overview
-
-This project is a full-stack **clinical trial compliance monitoring system** that transforms raw clinical trial data into actionable insights using an automated ETL pipeline and an interactive dashboard.
+This project is a full-stack clinical trial compliance monitoring system that transforms raw clinical trial data into actionable insights using an automated ETL pipeline and an interactive dashboard.
 
 It is designed to support oversight of clinical studies governed by regulatory bodies such as the FDA and Institutional Review Boards (IRBs).
 
@@ -16,7 +15,7 @@ The system integrates:
 - A real-time interactive dashboard built with Dash and Plotly
 
 
-## Problem Statement
+2. Problem Statement
 
 Clinical trial data is publicly available but difficult to interpret due to:
 - Large and complex raw datasets
@@ -30,7 +29,7 @@ This project solves this by building an automated system that:
 - Enables drill-down inspection of individual studies
 
 
-# 2. Technology Stack
+3. Technology Stack
 
 - Python
 - Dash (Plotly Dash)
@@ -40,9 +39,8 @@ This project solves this by building an automated system that:
 - ClinicalTrials.gov-style structured datasets (CSV-based ETL output)
 
 
-# 3. System Architecture (ETL Pipeline)
-
-## 3.1 Data Sources
+4. System Architecture (ETL Pipeline)
+4.1 Data Sources
 The system uses structured clinical trial datasets stored locally:
 
 - `trials.csv`
@@ -50,8 +48,7 @@ The system uses structured clinical trial datasets stored locally:
 - `sponsors.csv`
 - `locations.csv`
 
-
-## 3.2 ETL Process
+4.2 ETL Process
 
 ### Extract
 - Load CSV datasets from the `/output` directory
@@ -74,37 +71,31 @@ The system uses structured clinical trial datasets stored locally:
 - Used directly as the analytical data layer for visualizations
 
 
-# 4. Dashboard Features
-
-## 4.1 Executive KPI Layer
+5. Dashboard Features
+5.1 Executive KPI Layer
 Displays global system metrics:
 - Total clinical trials monitored
 - Total participant enrollment
 - Number of sponsor categories
 
 
-## 4.2 Global Filter System
+5.2 Global Filter System
 Interactive filtering by:
 - Recruitment status
 - Sponsor class
-- Enrollment scale tier
+- Enrollment scale 
 
-Filters dynamically update all visual components.
-
-
-## 4.3 Geographic Analysis (Map Visualization)
+5.3 Geographic Analysis (Map Visualization)
 - U.S. choropleth map (Plotly)
 - Displays trial distribution by state
 - Click-to-filter interaction enabled
 - Reset button clears selection
 
-
-## 4.4 Sponsor Analysis
+5.4 Sponsor Analysis
 - Donut chart showing enrollment distribution by sponsor class
 - Highlights dominance of sponsor categories
 
-
-## 4.5 Master Trial Ledger
+5.5 Master Trial Ledger
 Interactive table showing:
 - Protocol ID (NCT ID)
 - Study title
@@ -115,16 +106,13 @@ Features:
 - Pagination
 - Linked to detailed inspection panel
 
-
-## 4.6 Drilldown Inspection Panel
+5.6 Drilldown Inspection Panel
 Displays full clinical trial profile:
 - Enrollment count and scale tier
 - Sponsor name and classification
-- Facility location (city, state, country)
-- Start and completion dates
+- Recruitment status
 
-
-# 5. Data Engineering Design
+6. Data Engineering Design
 
 ## Key Transformations
 - Flattening merged datasets into analytical structure
@@ -139,75 +127,19 @@ Displays full clinical trial profile:
 - State-based segmentation engine
 
 
-# 6. Database Design (Conceptual Model)
 
-Although implemented in Pandas/CSV for this project, the system is designed with a normalized relational model.
+6. Database Design (Conceptual Model)
 
-
-## 6.1 Sponsors Table
-Stores sponsoring organizations.
-
-| Column | Type | Description |
-|------|------|-------------|
-| sponsor_id | INT (PK) | Unique sponsor identifier |
-| sponsor_name | VARCHAR | Name of sponsor |
-| sponsor_class | VARCHAR | Classification (INDUSTRY, NIH, OTHER, etc.) |
+Although this project is implemented using Pandas and CSV files, it is designed around a normalized relational database structure to ensure scalability and data integrity.
+The Sponsors entity stores information about organizations funding clinical trials, with each sponsor uniquely identified and classified by type (e.g., industry or NIH). Each sponsor can fund multiple clinical trials, establishing a one-to-many relationship with the Clinical Trials entity.
+The Clinical Trials entity contains the core study metadata, including the unique nct_id, title, recruitment status, sponsor reference, and study dates. Each trial is linked to one sponsor but can generate multiple related records in other tables.
+The Locations entity stores geographic information such as facility name, city, state, and country, enabling spatial analysis of where trials are conducted.
+The Enrollment Metrics entity tracks participant counts and enrollment scale for each trial, linked through nct_id, supporting performance and compliance monitoring.
+Finally, a junction structure between Clinical Trials and Locations resolves the many-to-many relationship, allowing each trial to occur at multiple sites while each site can host multiple trials.
+Overall, the model follows standard relational design principles, ensuring clean data organization, reduced redundancy, and future compatibility with relational database systems such as PostgreSQL.
 
 
-## 6.2 Clinical Trials Table
-Core clinical trial metadata.
-
-| Column | Type | Description |
-|------|------|-------------|
-| nct_id | VARCHAR (PK) | Unique trial identifier |
-| title | TEXT | Study title |
-| recruitment_status | VARCHAR | Current trial status |
-| sponsor_id | INT (FK) | Links to sponsors |
-| start_date | DATE | Trial start date |
-| completion_date | DATE | Trial completion date |
-
-
-## 6.3 Locations Table
-Stores facility-level geographic data.
-
-| Column | Type | Description |
-|------|------|-------------|
-| location_id | INT (PK) | Facility identifier |
-| facility_name | VARCHAR | Hospital/clinic name |
-| city | VARCHAR | City |
-| state | VARCHAR | State/region |
-| country | VARCHAR | Country |
-
-
-## 6.4 Enrollment Metrics Table
-Tracks trial recruitment performance.
-
-| Column | Type | Description |
-|------|------|-------------|
-| enrollment_id | INT (PK) | Record ID |
-| nct_id | VARCHAR (FK) | Trial reference |
-| enrollment_count | INT | Participant count |
-| scale_tier | VARCHAR | Enrollment category |
-
-
-## 6.5 Trial–Location Junction Table
-Resolves many-to-many relationship.
-
-| Column | Type | Description |
-|------|------|-------------|
-| nct_id | VARCHAR (FK) | Trial ID |
-| location_id | INT (FK) | Location ID |
-
-
-# 7. Entity Relationship Summary
-
-| Relationship | Type | Description |
-|-------------|------|-------------|
-| Sponsors → Clinical Trials | 1 : Many | One sponsor funds multiple trials |
-| Clinical Trials → Enrollment | 1 : Many | One trial can have multiple enrollment records |
-| Clinical Trials → Locations | Many : Many | Resolved via junction table |
-
-# 8. Key Outcomes
+8. Key Outcomes
 
 This system delivers:
 
@@ -219,7 +151,7 @@ This system delivers:
 - Drill-down inspection system for individual trials
 
 
-# 9. Project Value
+9. Project Value
 
 This project demonstrates:
 - Data engineering (ETL pipeline design)
