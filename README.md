@@ -40,8 +40,7 @@ It provides an executive-level view of:
 - Full clinical trial profile view including:
   - Enrollment metrics
   - Sponsor information
-  - Facility location (city, state, country)
-  - Start and completion dates
+  - Recruitment status
 
 ###  Global Filter System
 - Filter by:
