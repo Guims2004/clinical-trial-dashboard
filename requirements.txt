@@ -3,11 +3,10 @@
 **Developer:** Olivia Ngueguim  
 **Target Audience:** Institutional Review Board (IRB) Directors, Research Ethics Committees, University Research Administrators  
 
----
 
 ## 1. Project Overview
 
-This project is a full-stack clinical trial compliance monitoring system that transforms raw clinical trial data into actionable insights using an automated ETL pipeline and an interactive dashboard.
+This project is a full stack clinical trial compliance monitoring system that transforms raw clinical trial data into actionable insights using an automated ETL pipeline and an interactive dashboard.
 
 It is designed to support oversight of clinical studies governed by regulatory bodies such as the FDA and Institutional Review Boards (IRBs).
 
@@ -16,7 +15,6 @@ The system integrates:
 - ETL processing and cleaning using Python
 - A real-time interactive dashboard built with Dash and Plotly
 
----
 
 ## 2. Problem Statement
 
@@ -31,7 +29,6 @@ This project solves this by building an automated system that:
 - Visualizes trial distribution and sponsor activity
 - Enables drill-down inspection of individual studies
 
----
 
 ## 3. Technology Stack
 
@@ -42,7 +39,6 @@ This project solves this by building an automated system that:
 - Plotly Express
 - ClinicalTrials.gov-style structured datasets (CSV-based ETL output)
 
----
 
 ## 4. System Architecture (ETL Pipeline)
 
@@ -55,7 +51,6 @@ The system uses structured clinical trial datasets stored locally:
 - `sponsors.csv`
 - `locations.csv`
 
----
 
 ### 4.2 ETL Process
 
@@ -76,10 +71,9 @@ Data cleaning operations:
 - Assign U.S. state mapping for geographic visualization
 
 #### Load
-- Processed dataset stored in-memory for dashboard rendering
+- Processed dataset stored in memory for dashboard rendering
 - Used directly as the analytical data layer for visualizations
 
----
 
 ## 5. Dashboard Features
 
@@ -90,7 +84,6 @@ Displays global system metrics:
 - Total participant enrollment
 - Number of sponsor categories
 
----
 
 ### 5.2 Global Filter System
 
@@ -99,23 +92,20 @@ Interactive filtering by:
 - Sponsor class
 - Enrollment scale
 
----
 
 ### 5.3 Geographic Analysis (Map Visualization)
 
 - U.S. choropleth map (Plotly)
 - Displays trial distribution by state
-- Click-to-filter interaction enabled
+- Click to filter interaction enabled
 - Reset button clears selection
 
----
 
 ### 5.4 Sponsor Analysis
 
 - Donut chart showing enrollment distribution by sponsor class
 - Highlights dominance of sponsor categories
 
----
 
 ### 5.5 Master Trial Ledger
 
@@ -129,7 +119,6 @@ Features:
 - Pagination
 - Linked to detailed inspection panel
 
----
 
 ### 5.6 Drilldown Inspection Panel
 
@@ -138,7 +127,6 @@ Displays full clinical trial profile:
 - Sponsor name and classification
 - Recruitment status
 
----
 
 ## 6. Data Engineering Design
 
@@ -154,7 +142,6 @@ Displays full clinical trial profile:
 - Geographic filtering logic
 - State-based segmentation engine
 
----
 
 ## 7. Database Design (Conceptual Model)
 
@@ -172,7 +159,6 @@ Finally, a junction structure between Clinical Trials and Locations resolves the
 
 Overall, the model follows standard relational design principles, ensuring clean data organization, reduced redundancy, and future compatibility with relational database systems such as PostgreSQL.
 
----
 
 ## 8. Key Outcomes
 
@@ -184,7 +170,6 @@ This system delivers:
 - Sponsor-level analytics
 - Drill-down inspection system for individual trials
 
----
 
 ## 9. Project Value
 
