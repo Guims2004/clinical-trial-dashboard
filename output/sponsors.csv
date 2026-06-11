@@ -1,45 +1,50 @@
 sponsor_id,sponsor_name,sponsor_class
-1,AbbVie,INDUSTRY
-2,UNC Lineberger Comprehensive Cancer Center,OTHER
-3,"National Cancer Center, Korea",OTHER_GOV
-4,Medical College of Wisconsin,OTHER
-5,Ajai Chari,OTHER
-6,M.D. Anderson Cancer Center,OTHER
-7,First Affiliated Hospital of Zhejiang University,OTHER
-8,University of Kansas Medical Center,OTHER
-9,National Taiwan University Hospital,OTHER
-10,The Hong Kong Polytechnic University,OTHER
-11,Centre Henri Becquerel,OTHER
-12,Groupe Hospitalier Pitie-Salpetriere,OTHER
-13,Hospital Universitari de Bellvitge,OTHER
-14,GlaxoSmithKline,INDUSTRY
-15,Pfizer,INDUSTRY
-16,Cedars-Sinai Medical Center,OTHER
-17,Baxter Healthcare Corporation,INDUSTRY
-18,Memorial Sloan Kettering Cancer Center,OTHER
-19,"St. Joseph's Hospital and Medical Center, Phoenix",OTHER
-20,"University Hospital, Essen",OTHER
-21,Azienda Ospedaliera di Padova,OTHER
-22,Eye & ENT Hospital of Fudan University,OTHER
-23,Theodore Laetsch,OTHER
-24,"NGM Biopharmaceuticals, Inc",INDUSTRY
-25,Dana-Farber Cancer Institute,OTHER
-26,Medical Research Council,OTHER_GOV
-27,"Janssen Research & Development, LLC",INDUSTRY
-28,"Infinity Pharmaceuticals, Inc.",INDUSTRY
-29,Yonsei University,OTHER
-30,"Second Affiliated Hospital, School of Medicine, Zhejiang University",OTHER
-31,VA Office of Research and Development,FED
-32,Centre Hospitalier Universitaire de Besancon,OTHER
-33,"Institute of Cancer Research, United Kingdom",OTHER
-34,Chinese University of Hong Kong,OTHER
-35,Arma Ltd.,INDUSTRY
-36,"PrECOG, LLC.",OTHER
-37,Vastra Gotaland Region,OTHER_GOV
-38,AC Camargo Cancer Center,OTHER
-39,Henan Cancer Hospital,OTHER_GOV
-40,Maria Sklodowska-Curie National Research Institute of Oncology,OTHER
-41,Jiangsu Province Nanjing Brain Hospital,OTHER
-42,AHS Cancer Control Alberta,OTHER
-43,Assaf-Harofeh Medical Center,OTHER_GOV
-44,"Genentech, Inc.",INDUSTRY
+1,National Taiwan University Hospital,OTHER
+2,"Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",OTHER
+3,University of Milano Bicocca,OTHER
+4,Medical University of South Carolina,OTHER
+5,National Cancer Institute (NCI),NIH
+6,ECOG-ACRIN Cancer Research Group,NETWORK
+7,AstraZeneca,INDUSTRY
+8,Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD),NIH
+9,The Third Affiliated Hospital of Guangzhou Medical University,OTHER
+10,Fudan University,OTHER
+11,"Zhongshan Ophthalmic Center, Sun Yat-sen University",OTHER
+12,University of Utah,OTHER
+13,Genmab,INDUSTRY
+14,M.D. Anderson Cancer Center,OTHER
+15,WellSpan Health,OTHER
+16,Oslo University Hospital,OTHER
+17,Achieve Life Sciences,INDUSTRY
+18,Merck Sharp & Dohme LLC,INDUSTRY
+19,University Hospital Heidelberg,OTHER
+20,Sanofi,INDUSTRY
+21,Mayo Clinic,OTHER
+22,Massachusetts General Hospital,OTHER
+23,"Millennium Pharmaceuticals, Inc.",INDUSTRY
+24,"Mark Weiser, MD, Principal Investigator",OTHER_GOV
+25,Uppsala University,OTHER
+26,Tianjin Medical University Cancer Institute and Hospital,OTHER
+27,Guohui Li,OTHER
+28,Jonsson Comprehensive Cancer Center,OTHER
+29,Institute of Oncology Ljubljana,OTHER
+30,ASLAN Pharmaceuticals,OTHER
+31,"University Hospital, Bordeaux",OTHER
+32,Region Örebro County,OTHER
+33,Ying Lv,OTHER
+34,"Janssen Research & Development, LLC",INDUSTRY
+35,Carmel Medical Center,OTHER
+36,Varian Medical Systems,INDUSTRY
+37,"Radiopharm Theranostics, Ltd",INDUSTRY
+38,UNICANCER,OTHER
+39,Washington University School of Medicine,OTHER
+40,Ankara University,OTHER
+41,Institut für Klinische Krebsforschung IKF GmbH at Krankenhaus Nordwest,OTHER
+42,Zhejiang Cancer Hospital,OTHER
+43,Hedera Dx SA,INDUSTRY
+44,Hospital Universitari Vall d'Hebron Research Institute,OTHER
+45,Stanford University,OTHER
+46,Assistance Publique - Hôpitaux de Paris,OTHER
+47,The First Affiliated Hospital of Soochow University,OTHER
+48,Montana State University,OTHER
+49,National Institute of Allergy and Infectious Diseases (NIAID),NIH

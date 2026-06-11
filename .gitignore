@@ -14,6 +14,4 @@ env/
 .vscode/
 
 # Project Data and Log Files (Protects local pipeline runs)
-output/*.csv
-data/
-*.log
+

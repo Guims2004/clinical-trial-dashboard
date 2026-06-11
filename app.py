@@ -11,7 +11,7 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.FLATLY],
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]
 )
-app.title = "Clinical Trial Compliance Dashboard"
+app.title = "Clinical Trial Dashboard"
 
 # 2. FIXED DATA INGESTION PIPELINE
 def load_and_merge_data():
@@ -65,7 +65,6 @@ def load_and_merge_data():
         
     return merged
 
-
 df = load_and_merge_data()
 
 # Global static calculations for the main header brand tracking
@@ -94,7 +93,7 @@ app.layout = dbc.Container([
                     "letterSpacing": "1px", "display": "inline-block", "marginRight": "15px"
                 }),
                 html.Div([
-                    html.H2("Clinical Trial Compliance & Monitoring", className="text-white m-0 p-0 font-weight-bold", style={"fontSize": "22px"}),
+                    html.H2("Clinical Trial Monitoring Dashboard", className="text-white m-0 p-0 font-weight-bold", style={"fontSize": "22px"}),
                     html.Div([
                         html.Span("Global System Footprint: ", className="text-muted mr-2"),
                         html.Strong(f"{TOTAL_TRIALS_ALL} Protocols", style={"color": UOFL_COLORS["red"], "marginRight": "12px"}),
@@ -126,7 +125,7 @@ app.layout = dbc.Container([
                             )
                         ], width=4),
                         dbc.Col([
-                            html.Label("Sponsor Class Classification", className="small font-weight-bold"),
+                            html.Label("Sponsor", className="small font-weight-bold"),
                             dcc.Dropdown(
                                 id="sponsor-class-dropdown",
                                 options=[{"label": c, "value": c} for c in df["sponsor_class"].unique() if pd.notna(c)],
@@ -237,7 +236,6 @@ def handle_map_selection_state(click_data, n_clicks, current_stored_state):
             
     return current_stored_state
 
-
 # 6. SERVER BACKEND MULTI-COMPONENT REFRESH
 @app.callback(
     [Output("kpi-containers-row", "children"),
@@ -280,13 +278,13 @@ def refresh_dashboard_state(selected_statuses, selected_sponsors, selected_tiers
         
         # Metric 2: Active Sponsors
         dbc.Col(dbc.Card(dbc.CardBody([
-            html.H6("ACTIVE SPONSORS", className="text-muted small font-weight-bold m-0"),
+            html.H6("SPONSORS", className="text-muted small font-weight-bold m-0"),
             html.H2(f"{unique_sponsors:,}", style={"color": UOFL_COLORS["dark"], "fontWeight": "bold", "marginTop": "5px", "marginBottom": "0px"})
         ]), className="border-0 shadow-sm"), width=4),
         
         # Metric 3: Aggregated Cohort Enrollment
         dbc.Col(dbc.Card(dbc.CardBody([
-            html.H6("COHORT ENROLLMENT", className="text-muted small font-weight-bold m-0"),
+            html.H6("ENROLLMENT", className="text-muted small font-weight-bold m-0"),
             html.H2(f"{gross_enrollment:,}", style={"color": "#2E7D32", "fontWeight": "bold", "marginTop": "5px", "marginBottom": "0px"})
         ]), className="border-0 shadow-sm"), width=4)
     ]
@@ -311,7 +309,7 @@ def refresh_dashboard_state(selected_statuses, selected_sponsors, selected_tiers
     # Visualization B: Sponsor Division Market Share Donut
     fig_donut = px.pie(
         dff, names="sponsor_class", values="enrollment_count", hole=0.4,
-        title="<b>Enrollment Distribution by Sponsor</b>",
+        title="<b> Distribution by Sponsor</b>",
         color_discrete_sequence=[UOFL_COLORS["red"], UOFL_COLORS["dark"], "#757575", "#B0BEC5"]
     )
     fig_donut.update_layout(margin={"r":10,"t":40,"l":10,"b":10}, legend={"orientation": "h", "y": -0.1}, title_font_color=UOFL_COLORS["dark"])
@@ -320,7 +318,6 @@ def refresh_dashboard_state(selected_statuses, selected_sponsors, selected_tiers
     table_records = dff[["nct_id", "title", "recruitment_status"]].to_dict("records")
     
     return kpi_layout, fig_map, fig_donut, table_records, []
-
 
 # 7. ROW-LEVEL DRILL DOWN INSPECTOR CALLBACK (Tracks actual key tokens instead of volatile indices)
 @app.callback(
@@ -359,7 +356,7 @@ def update_inspection_panel(selected_rows, current_table_data):
             
             html.Div([
                 html.Span("Target Enrollment: ", className="font-weight-bold text-uppercase text-muted small d-block"),
-                html.H4(f"{int(record['enrollment_count']):,} Participants ({record['scale_tier']} Tier)", style={"color": UOFL_COLORS["red"], "fontWeight": "bold"})
+                html.H4(f"{int(record['enrollment_count']):,} Participants", style={"color": UOFL_COLORS["red"], "fontWeight": "bold"})
             ], className="mb-3"),
             
             html.Div([
@@ -369,7 +366,7 @@ def update_inspection_panel(selected_rows, current_table_data):
             
             html.Div([
                 html.Span("Primary Research Facility: ", className="font-weight-bold text-uppercase text-muted small d-block"),
-                html.P(f"📍 {record['facility_name']}", className="m-0 font-weight-bold text-secondary"),
+                html.P(f" {record['facility_name']}", className="m-0 font-weight-bold text-secondary"),
                 html.Small(f"City Location: {record['city']}, {record['state']} ({record['country']})", className="text-muted")
             ], className="mb-3"),
             
@@ -390,7 +387,8 @@ def update_inspection_panel(selected_rows, current_table_data):
     except Exception as e:
         return "Inspection Data Exception", html.P(f"Processing error during layout rendering: {str(e)}", className="text-danger small")
 
-
 # 8. EXECUTION PORT ENGINE
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
+
+
